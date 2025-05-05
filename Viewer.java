@@ -20,7 +20,7 @@ public class Viewer extends JFrame {
     );
 
     public Viewer() {
-        setTitle("Rozvrh místností");
+        setTitle("Rozvrh mistnosti");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(800, 400);
         setLayout(new BorderLayout());
@@ -35,7 +35,7 @@ public class Viewer extends JFrame {
         JPanel topPanel = new JPanel();
         topPanel.add(new JLabel("Budova:"));
         topPanel.add(buildingBox);
-        topPanel.add(new JLabel("Místnost:"));
+        topPanel.add(new JLabel("Mistnost:"));
         topPanel.add(roomBox);
         topPanel.add(loadButton);
         add(topPanel, BorderLayout.NORTH);
